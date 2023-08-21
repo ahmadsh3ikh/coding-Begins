@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int age = 14;
+    cout << endl;
+    cout << "If My Age is : ";
+    cin >> age;
+
+    do {
+        age++;
+        cout << "Turning to " << age << endl;
+    }while (age < 17);
+
+    cout << "Turned to " << age << endl;
+    cout << "now you can drive";
+
+    cout << endl;
+
+
+    return 0;
+}
+
